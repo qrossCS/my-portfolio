@@ -1,13 +1,17 @@
+// TODO: Change to work with links
+
 function addRandomSong() {
-  /*
-    const greetings =
-      ['Hello world!', '¡Hola Mundo!', '你好，世界！', 'Bonjour le monde!'];
+  
+    const songs =
+      ['Good Days - SZA (R&B)', 'Pavane - Gabriel Faure (Classical)', 
+      'On Me - Lil Baby (Rap/Hip-Hop)', 'Eden - Brent Fiyaz (R&B)',
+      'Smerf Made This - G.T. (Rap/Hip-Hop)', 'Higher - Tems (R&B)'];
 
   // Pick a random greeting.
-  const greeting = greetings[Math.floor(Math.random() * greetings.length)];
+  const song = songs[Math.floor(Math.random() * songs.length)];
 
   // Add it to the page.
   const greetingContainer = document.getElementById('greeting-container');
-  greetingContainer.innerText = greeting;
-  */
+  greetingContainer.innerText = song;
+  
 }
