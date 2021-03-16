@@ -20,5 +20,5 @@ async function sayHello() {
   const responseText = await serverResponse.text();
 
   const greeting = document.getElementById('hello-response');
-  greeting.innerText = responseText;
+  greeting.innerHTML = responseText;
 }
